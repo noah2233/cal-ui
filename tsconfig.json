@@ -12,6 +12,12 @@
     },
     {
       "path": "./projects/cal-ui/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/cal-ui-sandbox/tsconfig.app.json"
+    },
+    {
+      "path": "./projects/cal-ui-sandbox/tsconfig.spec.json"
     }
 ]
 }
