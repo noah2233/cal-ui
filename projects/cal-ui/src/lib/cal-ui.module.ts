@@ -1,12 +1,8 @@
 import { NgModule } from '@angular/core';
-import { CalUiComponent } from './cal-ui.component';
-
-
 
 @NgModule({
-  declarations: [CalUiComponent],
-  imports: [
-  ],
-  exports: [CalUiComponent]
+  declarations: [],
+  imports: [],
+  exports: [],
 })
-export class CalUiModule { }
+export class CalUiModule {}
