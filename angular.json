@@ -8,6 +8,11 @@
       "root": "projects/cal-ui",
       "sourceRoot": "projects/cal-ui/src",
       "prefix": "cal-ui",
+      "schematics": {
+        "@schematics/angular:component": {
+          "styleext": "scss"
+        }
+      },
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-ng-packagr:build",
@@ -36,12 +41,11 @@
               "projects/cal-ui/tsconfig.lib.json",
               "projects/cal-ui/tsconfig.spec.json"
             ],
-            "exclude": [
-              "**/node_modules/**"
-            ]
+            "exclude": ["**/node_modules/**"]
           }
         }
       }
-    }},
+    }
+  },
   "defaultProject": "cal-ui"
 }
