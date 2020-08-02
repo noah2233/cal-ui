@@ -6,5 +6,12 @@
 */
 {
   "files": [],
-  "references": []
+  "references": [
+    {
+      "path": "./projects/cal-ui/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/cal-ui/tsconfig.spec.json"
+    }
+]
 }
