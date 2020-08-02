@@ -10,7 +10,7 @@
       "prefix": "cal-ui",
       "schematics": {
         "@schematics/angular:component": {
-          "styleext": "scss"
+          "style": "scss"
         }
       },
       "architect": {
