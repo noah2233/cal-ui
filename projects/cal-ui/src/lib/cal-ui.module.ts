@@ -4,6 +4,6 @@ import { FooterComponent } from './footer/footer.component';
 @NgModule({
   declarations: [FooterComponent],
   imports: [],
-  exports: [],
+  exports: [FooterComponent],
 })
 export class CalUiModule {}
