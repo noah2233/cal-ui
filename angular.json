@@ -7,7 +7,6 @@
       "projectType": "library",
       "root": "projects/cal-ui",
       "sourceRoot": "projects/cal-ui/src",
-      "prefix": "cal-ui",
       "schematics": {
         "@schematics/angular:component": {
           "style": "scss"
@@ -70,9 +69,7 @@
               "projects/cal-ui-sandbox/src/favicon.ico",
               "projects/cal-ui-sandbox/src/assets"
             ],
-            "styles": [
-              "projects/cal-ui-sandbox/src/styles.scss"
-            ],
+            "styles": ["projects/cal-ui-sandbox/src/styles.scss"],
             "scripts": []
           },
           "configurations": {
@@ -134,9 +131,7 @@
               "projects/cal-ui-sandbox/src/favicon.ico",
               "projects/cal-ui-sandbox/src/assets"
             ],
-            "styles": [
-              "projects/cal-ui-sandbox/src/styles.scss"
-            ],
+            "styles": ["projects/cal-ui-sandbox/src/styles.scss"],
             "scripts": []
           }
         },
@@ -148,9 +143,7 @@
               "projects/cal-ui-sandbox/tsconfig.spec.json",
               "projects/cal-ui-sandbox/e2e/tsconfig.json"
             ],
-            "exclude": [
-              "**/node_modules/**"
-            ]
+            "exclude": ["**/node_modules/**"]
           }
         },
         "e2e": {
