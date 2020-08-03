@@ -1,9 +1,8 @@
 import { NgModule } from '@angular/core';
-import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
-  declarations: [FooterComponent],
+  declarations: [],
   imports: [],
-  exports: [FooterComponent],
+  exports: [],
 })
 export class CalUiModule {}
